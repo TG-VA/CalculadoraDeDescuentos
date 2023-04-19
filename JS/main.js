@@ -29,6 +29,7 @@ function calcularDescuento() {
   const precio = Number(inputprecio.value);
   const descuento = Number(inputdescuento.value);
   const coupon = inputdescuento.value;
+  let discount;
 
   if (!precio || !coupon) {
     resultado.innerText = "Por favor, Llena todo los campos";
@@ -40,8 +41,17 @@ function calcularDescuento() {
     return;
   }
 
-  let discount;
-  if (couponsObj[coupon]) {
+  if(!isNaN(descuento)){
+    const pago1 = (precio * (100 - descuento)) / 100;
+    resultado.innerHTML = "$" + pago1;
+    console.log({
+    precio,
+    descuento,
+    coupon,
+    });
+    
+    return;
+  } else if (couponsObj[coupon]) {
     discount = couponsObj[coupon];
     const pago = (precio * (100 - discount)) / 100;
     resultado.innerHTML = "$" + pago;
@@ -51,8 +61,7 @@ function calcularDescuento() {
     return;
   }
 
-  const pago = (precio * (100 - descuento)) / 100;
-  resultado.innerHTML = "$" + pago;
+  
 }
 
 function primerDescuento() {
