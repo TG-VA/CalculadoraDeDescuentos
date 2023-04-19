@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Descuentos</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/tablet.css" media="(max-width: 780px)">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/272/272572.png">
+</head>
+<body>
+    
+  <h1 class="title">Calculadora de descuentos</h1>
+  <div class="container">
+
+    <figure>
+      <img src="https://static.vecteezy.com/system/resources/previews/008/468/152/non_2x/discount-sign-discount-icon-on-white-background-vector.jpg" alt="Icono de descuento">
+    </figure>
+
+    <label for="price">Ingresa la cantidad</label>
+    <input type="number" placeholder="$" id="price">
+
+    <label for="discount">Ingresa el descuento (o cupón)</label>
+    <input type="text" placeholder="%" id="discount">
+
+    <p id="result"></p>
+
+    <div class="descuentos">
+      <button id="descuentoUno">5%</button>
+      <button id="descuentoDos">10%</button>
+      <button id="descuentoTres">15%</button>
+      <button id="descuentoCuatro">20%</button>
+    </div>
+    <button id="btnDesc"> Generar Descuento</button>
+
+    <button type="buttom" id="btnReset">Reiniciar</button>
+
+  </div>
+
+  <script src="./JS/main.js"></script>
+</body>
+</html>
