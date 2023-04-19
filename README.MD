@@ -1,7 +1,7 @@
 # Calculadora de Descuentos 
 
 [![Calculadora de descuentos imagen](https://i.imgur.com/uXFiUps.png "Calculadora de descuentos imagen")](https://imgur.com/gallery/LfbPTAn "Calculadora de descuentos imagen")
-###Introdución
+### Introdución
 Projecto desarrollado con HTML, CSS y JS para poner en practica los siguientes conceptos:
 - element.addEventListener
 - Objects JavaScript
@@ -22,7 +22,7 @@ const couponsObj = {
 };
 ```
 
-###Introduction
+### Introduction
 Project developed with HTML, CSS and JS to implement the following concepts:
 - element.addEventListener
 - JavaScript Objects
