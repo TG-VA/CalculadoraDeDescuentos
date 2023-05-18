@@ -1,6 +1,6 @@
 # Calculadora de Descuentos 
 
-[![https://im.ezgif.com/tmp/ezgif-1-f2b418ec01.gif](https://im.ezgif.com/tmp/ezgif-1-f2b418ec01.gif "https://im.ezgif.com/tmp/ezgif-1-f2b418ec01.gif")](https://im.ezgif.com/tmp/ezgif-1-f2b418ec01.gif "https://im.ezgif.com/tmp/ezgif-1-f2b418ec01.gif")
+[![https://i.imgur.com/uXFiUps.png](https://i.imgur.com/uXFiUps.png "https://i.imgur.com/uXFiUps.png")](https://i.imgur.com/uXFiUps.png "https://i.imgur.com/uXFiUps.png")
 
 ### 📄 Introdución
 Projecto desarrollado con HTML, CSS y JS para poner en practica los siguientes conceptos:
@@ -31,7 +31,7 @@ const couponsObj = {
 
 # Discount calculator
 
-[![https://im.ezgif.com/tmp/ezgif-1-f2b418ec01.gif](https://im.ezgif.com/tmp/ezgif-1-f2b418ec01.gif "https://im.ezgif.com/tmp/ezgif-1-f2b418ec01.gif")](https://im.ezgif.com/tmp/ezgif-1-f2b418ec01.gif "https://im.ezgif.com/tmp/ezgif-1-f2b418ec01.gif")
+[![https://i.imgur.com/uXFiUps.png](https://i.imgur.com/uXFiUps.png "https://i.imgur.com/uXFiUps.png")](https://i.imgur.com/uXFiUps.png "https://i.imgur.com/uXFiUps.png")
 
 ### 📄 Introduction
 Project developed with HTML, CSS and JS to implement the following concepts:
